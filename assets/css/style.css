@@ -166,10 +166,10 @@ h6 {
 --------------------------------------------------------------*/
 #header {
   transition: all 0.5s;
-  background: #fff;
+  background: #000;
   z-index: 99999;
   /* padding: 15px 0; */
-  border-bottom: 1px solid #e6f2fb;
+  /* border-bottom: 1px solid */
 }
 
 #header.header-scrolled {
@@ -234,7 +234,7 @@ nav#navbar {
   justify-content: space-between;
   padding: 10px 0 10px 30px;
   font-size: 16px;
-  color: #151515;
+  color: #fff;
   white-space: nowrap;
   transition: 0.3s;
   font-family: 'CenturyGothic-Bold';
@@ -251,7 +251,7 @@ nav#navbar {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #ee4123;
+  color: #2487ce  ;
 }
 
 .navbar .getstarted,
@@ -337,7 +337,7 @@ nav#navbar {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #124265;
+  color: #00ff31;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -366,7 +366,7 @@ nav#navbar {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(10, 38, 58, 0.9);
+  background: rgb(0 0 0 / 90%);
   transition: 0.3s;
   z-index: 999;
 }
@@ -441,7 +441,33 @@ nav#navbar {
 .navbar-mobile .dropdown>.dropdown-active {
   display: block;
 }
+section#about h2 {
+  font-size: 30px;
+  width: 908px;
+  display: inline-block;
+  margin: 32px 0 24px 0;
+  color: black;
+  -webkit-text-stroke: thin;
+}
 
+.about story {}
+
+section#about {
+  background-color: #fff;
+  height: 90vh;
+  align-items: center;
+  display: flex;
+}
+
+.story .section-title {
+  padding: 0;
+}
+
+.story h2 {
+  text-transform: inherit;
+  text-shadow: 0 0 black;
+  font-size: 32px !important;
+}
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -474,12 +500,12 @@ nav#navbar {
   font-size: 56px;
   font-weight: 700;
   line-height: 72px;
-  color: #333;
+  color: #fff;
   font-family: "Poppins", sans-serif;
 }
 
 #hero h2 {
-  color: #5e5e5e;
+  color:  #a18686;
   margin: 0 0 24px 0;
   font-size: 22px;
 }
@@ -501,7 +527,7 @@ h1.km-font {
   transition: 0.5s;
   margin-top: 8px;
   color: #fff;
-  background: #333;
+  background: #2487ce  ;
 }
 /* .section-title.km-title {
   margin-top: 14rem;
@@ -613,9 +639,17 @@ section {
   padding: 40px 0;
   overflow: hidden;
 }
+h2.date {
+  font-size: 155px !important;
+  letter-spacing: 23px !important;
+}
 
 .section-bg {
-  background-color: #f8fbfe;
+  background-color: #000;
+}
+
+.portfolio-info {
+  color: #fff;
 }
 
 .section-title {
@@ -629,7 +663,10 @@ section {
   text-transform: uppercase;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #124265;
+  color: #000;
+}
+h2.Story1 {
+  color: #fff;
 }
 
 .section-title p {
@@ -2032,7 +2069,7 @@ padding: 0;
   width: 30px;
   height: 50px;
   margin-left: -15px;
-  border: 2px solid #000;
+  border: 2px solid #ffffff;
   border-radius: 50px;
   box-sizing: border-box;
 
@@ -2086,7 +2123,7 @@ padding: 0;
 
 #hero:after {
   content: "";
-  background: #00000012;
+  background: black;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -2098,11 +2135,13 @@ padding: 0;
 @media only screen and (min-width:321px) and (max-width:768px){
 
   section#hero {
-    height: 100vh;
+    height: 65vh;
 }
 
 section#section10 .mt-5.main-head {
-  margin-top: 20rem !important;
+  /* margin-top: 20rem !important; */
+  text-align: center !important;
+  display: contents;
 }
 
   .main-head {
