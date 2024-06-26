@@ -2144,10 +2144,19 @@ section#about {
   display: flex;
 }
 
-section#about h2
-{
-
+.section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    color: #fff;
 }
+section#about h2 {
+    font-size: 24px;
+    display: contents;
+}
+
 
 section#section10 .mt-5.main-head {
   /* margin-top: 20rem !important; */
