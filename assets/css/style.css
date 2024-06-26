@@ -2131,7 +2131,9 @@ padding: 0;
   right: 0;
   z-index: 100;
 }
-
+section#about.story {
+    height: 45vh;
+}
 section#about.km-about {
     height: 58vh;
 }
