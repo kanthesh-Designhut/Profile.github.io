@@ -2132,6 +2132,9 @@ padding: 0;
   z-index: 100;
 }
 
+section#about.km-about {
+    height: 58vh;
+}
 @media only screen and (min-width:321px) and (max-width:768px){
 
   section#hero {
@@ -2139,11 +2142,17 @@ padding: 0;
 }
 section#about {
   background-color: #fff;
-  height: 42vh;
+  height: 72vh;
   align-items: center;
-  display: block;
+  display: flex;
 }
-
+section#about.story {
+    height: 30vh;
+}
+h2.product {
+    font-weight: 100 !important;
+    font-family: 'CenturyGothic-Bold';
+}
 .section-title h2 {
     font-size: 32px;
     font-weight: bold;
