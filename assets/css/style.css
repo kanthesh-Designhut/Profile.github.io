@@ -2141,7 +2141,7 @@ section#about {
   background-color: #fff;
   height: 42vh;
   align-items: center;
-  display: flex;
+  display: block;
 }
 
 .section-title h2 {
