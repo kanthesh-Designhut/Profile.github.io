@@ -437,6 +437,7 @@ section#about h2 {
   margin: 32px 0 24px 0;
   color: black;
   -webkit-text-stroke: thin;
+  text-align: center;
 }
 
 
