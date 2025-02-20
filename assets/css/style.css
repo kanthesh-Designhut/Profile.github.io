@@ -507,7 +507,8 @@ section#about {
 #hero h2 {
   color:  #a18686;
   margin: 0 0 24px 0;
-  font-size: 22px;
+  font-size: 42px;
+    font-weight: bold;
 }
 h1.km-font {
     font-size: 24px !important;
@@ -2071,7 +2072,7 @@ padding: 0;
   width: 30px;
   height: 50px;
   margin-left: -15px;
-  border: 2px solid #ffffff;
+  border: 2px solid #2487ce;
   border-radius: 50px;
   box-sizing: border-box;
 
@@ -2084,7 +2085,7 @@ padding: 0;
   width: 6px;
   height: 6px;
   margin-left: -3px;
-  background-color: #ffffff;
+  background-color: #2487ce;
   border-radius: 100%;
   -webkit-animation: sdb10 2s infinite;
   animation: sdb10 2s infinite;
@@ -2172,6 +2173,7 @@ h2.product {
 section#about h2 {
     font-size: 24px;
     display: contents;
+    text-align: center;
 }
 
 
